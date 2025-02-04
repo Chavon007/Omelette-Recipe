@@ -22,7 +22,9 @@ body {
 }
 .Recipe-image img {
   border-radius: 30px;
-  padding: 15px;
+  width: 200px;
+  height: 200px;
+  align-content: center;
 }
 .Recipe-write h2 {
   padding-left: 15px;
@@ -125,4 +127,47 @@ tr td {
 
 tr td:last-child {
   color: #92926f;
+}
+
+@media screen and (max-width: 599px) {
+  .Recipe-image img {
+    width: 160px;
+    height: 100px;
+  }
+  .Recipe-write h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .Recipe-write p {
+    font-size: 12px;
+  }
+  tr td {
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    font-size: 12px;
+    font-family: serif;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .Recipe-image img {
+    width: 200px;
+    height: 100px;
+  }
+  .Recipe-write h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  tr td {
+    padding: 0.5rem 5rem 0.5rem 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .Recipe-image img {
+    width: 380px;
+    height: 200px;
+  }
+  tr td {
+    padding: 0.5rem 8rem 0.5rem 0.5rem;
+  }
 }
