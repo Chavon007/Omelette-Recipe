@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e1e0d1;
+  height: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.Recipe-content {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 40%;
+}
+.Recipe-image img {
+  border-radius: 30px;
+  padding: 15px;
+}
+.Recipe-write h2 {
+  padding-left: 15px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.Recipe-write p {
+  font-size: 13px;
+  font-family: serif;
+  padding-left: 15px;
+  margin-bottom: 2rem;
+}
+.Recipe-prep {
+  box-sizing: border-box;
+  border: none;
+  background-color: #f2f2d5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Recipe-prep h4 {
+  padding: 10px;
+  font-size: 16px;
+  font-family: serif;
+  color: #92926f;
+  font-weight: bold;
+}
+.Recipe-prep li {
+  margin-left: 22px;
+  padding: 0 0 5px 10px;
+  font-size: 13px;
+  font-family: serif;
+}
+.Recipe-ing {
+  padding: 15px;
+  margin: 5px;
+  border-bottom: 1px solid #92926f;
+}
+.Recipe-ing h2 {
+  font-family: serif;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: #707052;
+}
+.Recipe-ing li {
+  margin-left: 20px;
+  padding: 0 0 8px 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.Recipe-inst {
+  margin: 0.5rem;
+  padding: 15px;
+  border-bottom: 1px solid #92926f;
+}
+.Recipe-inst h2 {
+  font-family: serif;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: #707052;
+}
+.Recipe-inst ol li::marker {
+  color: #707052;
+  font-weight: bold;
+}
+.Recipe-inst li {
+  padding: 0 0 8px 10px;
+  font-size: 13px;
+  font-family: serif;
+}
+.Recipe-nut {
+  margin: 0.5rem;
+  padding: 15px;
+}
+.Recipe-nut h2 {
+  font-family: serif;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  color: #707052;
+}
+.Recipe-nut p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+tr td {
+  padding: 0.5rem 10rem 0.5rem 0.5rem;
+  font-size: 12px;
+  font-family: serif;
+}
+
+tr td:last-child {
+  color: #92926f;
+}
